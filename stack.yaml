@@ -1,0 +1,26 @@
+resolver: lts-9.0
+
+packages:
+  - cairo
+  - gio
+  - glib
+  - gtk
+  - pango
+  - tools
+
+extra-deps:
+  - X11-extras-0.4
+  - directory-1.2.7.1
+
+nix:
+  packages:
+    - cairo
+    - glib
+    - gtk3
+    - pango
+    - pkgconfig
+    - xorg.libX11
+    - xorg.libXext
+    - xorg.libXrandr
+    - xorg.xproto
+    - zlib
